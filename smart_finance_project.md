@@ -46,17 +46,15 @@ This will be the first time you have used a template repository, so follow these
     *   Make sure the repository is set to **Private**.
     *   Click "Create repository from template".
 
-2.  **Clone your new repository to your local machine.**
-    ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    ```
+2.  **Open the starter_notebook.ipynb in Google Colab.**
+    *   Navigate to your newly created repository on GitHub.
+    *   Click on the `starter_notebook.ipynb` file to view it.
+    *   Click the "Open in Colab" button (usually found at the top of the notebook viewer). This will open the notebook in Google Colab, connected to your GitHub repository.
 
-3.  **Open the project in your favorite code editor.**
-
-4.  **Start working on the assignment.**
-    *   Follow the instructions in the `starter_notebook.ipynb`.
-    *   Commit your changes regularly with meaningful commit messages.
-    *   Push your changes to your private GitHub repository.
+3.  **Start working on the assignment.**
+    *   Follow the instructions within the `starter_notebook.ipynb`.
+    *   As you make changes in Colab, commit them regularly using Colab's built-in Git integration (File -> Save a copy in GitHub).
+    *   Ensure your commits have meaningful messages.
 
 ---
 
