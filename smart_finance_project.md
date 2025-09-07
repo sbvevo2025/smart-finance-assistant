@@ -59,7 +59,9 @@ This will be the first time you have used a template repository, so follow these
 ---
 
 ## 🔑 Six-Step Development Methodology
-Your notebook must include **evidence of each step** in the methodology below. Use Markdown cells, comments, or screenshots where appropriate:
+Your notebook must include **evidence of each step** in the methodology below. You can find a detailed explanation of this methodology here: [The Six-Step Programming Methodology](https://michael-borck.github.io/intentional-prompting/chapters/04-six-step-methodology.html).
+
+Use Markdown cells, comments, or screenshots where appropriate:
 
 1. **Understand the Problem** – Restate the finance problem in plain English.  
 2. **Identify Inputs and Outputs** – Clearly list inputs (e.g., CSV) and outputs.  
