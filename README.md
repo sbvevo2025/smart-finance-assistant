@@ -80,3 +80,10 @@ For the full rubric, see `assignment.pdf`.
 
 Good luck, and have fun building your Finance Assistant! 🎉
 
+---
+
+## 📜 License
+
+The template code in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+You are free to license your own work (your project code) under any license you choose.
