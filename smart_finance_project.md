@@ -16,6 +16,8 @@ format: pdf
 ## 🎯 Project Overview
 In this project you will design, implement, and test a **Smart Finance Assistant** using **Python, Google Colab, Gradio, and the `hands-on-ai` package**.
 
+This project provides a template repository to help you get started.
+
 Your Assistant should help users complete personal finance tasks such as:
 - Summarising transactions from a CSV file
 - Tracking a stock/crypto portfolio via API data
@@ -28,6 +30,31 @@ Each student will create **one complete Colab Notebook** that integrates:
 2. **RAG** – retrieval from CSV or other documents  
 3. **Agent Tool** – one custom function registered as a tool  
 4. **Gradio UI** – a simple interface that ties these together  
+
+---
+
+## 🚀 Getting Started: Using the Template Repository
+
+This will be the first time you have used a template repository, so follow these instructions carefully.
+
+1.  **Create your own repository from this template.**
+    *   Click the "Use this template" button at the top of the repository page.
+    *   Select "Create a new repository".
+    *   Give your repository a name (e.g., `smart-finance-assistant-yourname`).
+    *   Make sure the repository is set to **Private**.
+    *   Click "Create repository from template".
+
+2.  **Clone your new repository to your local machine.**
+    ```bash
+    git clone https://github.com/your-username/your-repository-name.git
+    ```
+
+3.  **Open the project in your favorite code editor.**
+
+4.  **Start working on the assignment.**
+    *   Follow the instructions in the `starter_notebook.ipynb`.
+    *   Commit your changes regularly with meaningful commit messages.
+    *   Push your changes to your private GitHub repository.
 
 ---
 
@@ -53,6 +80,7 @@ Your notebook must include **evidence of each step** in the methodology below. U
    - The Colab Notebook  
    - A clear **README** explaining what your Assistant does, sample inputs/outputs, and instructions to run  
    - Your **Developer’s Diary** (Markdown file)  
+   - You must invite your instructor (`michael-borck`) as a collaborator to your private repository.
 
 3. **Developer’s Diary** including:  
    - *Weekly AI Evidence Packages* documenting how you collaborated with AI (Weeks 8–12):  
@@ -64,6 +92,9 @@ Your notebook must include **evidence of each step** in the methodology below. U
 4. **GitHub Commit History**  
    - At least one meaningful commit per week (Weeks 8–12) is expected.  
    - Commits may include code, diary updates, or README improvements.  
+
+5. **LMS Submission**
+   - A zip file of your final GitHub repository submitted to the LMS.
 
 ---
 
@@ -101,4 +132,3 @@ Choose one of the following or propose your own (with tutor approval):
 - Practiced the six-step methodology from problem to tests  
 - Learned how to direct AI as a coding partner  
 - Produced a portfolio-ready interactive Python app
-
