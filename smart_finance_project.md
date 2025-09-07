@@ -26,10 +26,12 @@ Your Assistant should help users complete personal finance tasks such as:
 - Running a simple custom tool (e.g., currency converter, savings goal calculator)
 
 Each student will create **one complete Colab Notebook** that integrates:
-1. **Chat** – a finance-oriented personality bot  
-2. **RAG** – retrieval from CSV or other documents  
-3. **Agent Tool** – one custom function registered as a tool  
-4. **Gradio UI** – a simple interface that ties these together  
+1. **Chat** – a finance-oriented personality bot
+2. **RAG** – retrieval from CSV or other documents
+3. **Agent Tool** – one custom function registered as a tool
+4. **Gradio UI** – a simple interface that ties these together
+
+This notebook must be a working Google Colab notebook, able to be run in the Google Colab environment. Furthermore, it must use the following Large Language Model provider: base URL `https://ollama.serveur.au` and an API key of `isys2001smartfinance`.  
 
 ---
 
