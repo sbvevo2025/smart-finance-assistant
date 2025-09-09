@@ -73,6 +73,14 @@ For the full rubric, see `assignment.pdf`.
 
 ---
 
+## 📚 Resources
+
+- **hands-on-ai Package**: [GitHub Repository](https://github.com/michael-borck/hands-on-ai)
+- **Documentation**: [DeepWiki Guide](https://deepwiki.com/michael-borck/hands-on-ai)
+- **For AI Assistants**: Share [this LLM context file](https://github.com/michael-borck/hands-on-ai/blob/main/LLM.txt) with ChatGPT/Claude/Copilot for better code suggestions
+
+---
+
 ## 💡 Tips
 - Keep your commits small and descriptive.
 - Use AI as a coding partner, not a crutch.
