@@ -175,16 +175,35 @@ Use this format for consistent diary entries:
 ```markdown
 
 ### AI Collaboration #1
-**Context**: Setting up basic CSV loading and analysis for transaction data
-**Prompt**: "Help me load and analyze transaction CSV data for my finance assistant"
-**Result**: Working pandas code with data cleaning and summary statistics
-**Reflection**: AI provided good starting code, but I had to ask for better error handling
+**Context**: Setting up a basic CSV as the starting phase of the assignment allowing the CSV information to be stored on the colab.
+**Prompt**: I'm building a Smart Finance Assistant for my programming assignment. I need to load a CSV file with transaction data (columns: Date, Amount, Category, Description). The Amount column has dollar signs that need cleaning. Please write professional Python code with detailed comments that:
+
+Loads the CSV data
+Cleans and validates the data
+Shows basic information about the dataset
+Handles any common data issues
+
+**Result**: Working pandas code with data cleaning and summary statistics.
+**Reflection**: AI provided excellent starting code for the assignment's foundations.
 
 ### AI Collaboration #2
-**Context**: Creating spending summary by category
-**Prompt**: "Calculate total spending by category and format for business presentation"
-**Result**: Professional-looking output with proper formatting
-**Reflection**: Learned to be specific about output formatting requirements
+**Context**: Building upon the CSV with categorisation of expenses
+**Prompt**: For my Smart Finance Assistant, I need functions to analyze spending data. Please create well-documented functions that:
+
+Calculate total spending by category
+Find the top 5 spending categories
+Calculate average spending per transaction
+Identify any unusual transactions (very high or negative amounts) Each function should have clear business explanations and error handling.
+
+**Result**: Professional and reliable code building upon the foundations of the CSV integration.
+**Reflection**: Gemini provided a detailed response with its code closely matching the criteria I asked to be included.
+
+### AI Collaboration #3
+**Context**: Creating a spending/expenses report for personal financing.
+**Prompt**: Using the transaction analysis functions, help me create a comprehensive spending report that would be useful for personal financial planning. Include recommendations for potential savings and spending pattern observations. Format it like a professional financial summary. As code.
+
+**Result**: Highly well put together code with expenses categories and notes on spending activity.
+**Reflection**: The code provided by Gemini closely matched with what I asked, with professional observations delving into various tasks.
 ```
 ---
 
