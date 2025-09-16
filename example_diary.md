@@ -170,6 +170,22 @@ Use this format for consistent diary entries:
 **Reflection:** [What you learned about AI collaboration, business programming, or problem-solving]
 ```
 
+## Week 8: Initial CSV Processing
+
+```markdown
+
+### AI Collaboration #1
+**Context**: Setting up basic CSV loading and analysis for transaction data
+**Prompt**: "Help me load and analyze transaction CSV data for my finance assistant"
+**Result**: Working pandas code with data cleaning and summary statistics
+**Reflection**: AI provided good starting code, but I had to ask for better error handling
+
+### AI Collaboration #2
+**Context**: Creating spending summary by category
+**Prompt**: "Calculate total spending by category and format for business presentation"
+**Result**: Professional-looking output with proper formatting
+**Reflection**: Learned to be specific about output formatting requirements
+```
 ---
 
 ✅ **Remember**: Document your AI collaboration throughout your project development. Each entry should show learning and improvement, not just successful interactions. Show how you direct AI like a junior developer to create business-appropriate solutions.
