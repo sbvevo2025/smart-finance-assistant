@@ -1,0 +1,6 @@
+Understand the problem: Restate it in your own words.
+Identify the input and output: Determine what information is needed and what the programme should produce.
+Work the problem by hand: Solve a small example manually.
+Write the pseudocode: Outline the logical steps to solve the problem.
+Convert the pseudocode to Python: Translate your outline into working code.
+Test with a variety of data: Ensure your solution works under different scenarios.
