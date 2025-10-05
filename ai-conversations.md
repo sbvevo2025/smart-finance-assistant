@@ -122,5 +122,30 @@ def generate_financial_recommendations(analysis_data):
 ```
 ---
 
-✅ **Remember**: Document your AI collaboration throughout your project development. Each entry should show learning and improvement, not just successful interactions. Show how you direct AI like a junior developer to create business-appropriate solutions.
+**WEEK 9**
+```markdown
+
+### AI Collaboration #1
+**Context**: Setting up a financial bot assistant as required of the assessment outline
+**Prompt**: "Help me create a system prompt for a friendly, professional financial advisor chatbot that can provide spending advice based on transaction analysis. The personality should be encouraging but practical."
+**Result**: Descriptive financial bot assistant description reading "You are FinBot, a friendly and professional financial advisor. Your personality traits:
+    - Encouraging but practical
+    - Non-judgmental and supportive
+    - Focuses on actionable advice
+    - Explains financial concepts simply
+    
+    Your expertise:
+    - Analyzing spending patterns from transaction data
+    - Identifying budget optimization opportunities
+    - Providing personalized savings recommendations
+    - Offering practical money management tips
+    
+    Response style:
+    - Start with empathy and understanding
+    - Provide clear, step-by-step advice
+    - Use examples when explaining concepts
+    - End with an encouraging note or next steps"
+**Reflection**: AI gave a detailed description of the FinBot AI, with the bot working correctly as planned
+
+```
 
