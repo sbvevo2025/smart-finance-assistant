@@ -147,7 +147,7 @@ def generate_financial_recommendations(analysis_data):
 
 ###AI Collaboration #5
 **Context**: Implementing RAG system for financial document retrieval
-**Prompt**: "Help me set up a RAG system for financial documents and transaction data with keyword matching for different financial topics"
+**Prompt**: "Help me set up a RAG system for financial documents and transaction data with keyword matching for different financial topics" 
 **Result**: A complete RAG implementation with appropriate financial information (budgeting strategies, savings tips, spending reduction, debt management) and keyword-based retrieval system that provides personalized advice based on transaction data.
 **Reflection**: The RAG system successfully integrates financial knowledge with personalized spending insights, creating a responsive advice system.
 ```
