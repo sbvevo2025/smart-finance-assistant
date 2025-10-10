@@ -80,9 +80,6 @@ Identify any unusual transactions (very high or negative amounts) Each function 
 **Context**: Creating a spending/expenses report for personal financing.
 **Prompt**: Can you create a Business Insights Generator building on the previous code for the transactions.csv and actually reference it with the below as a template and using this pseudocode:  
 
-
-
-
 - Calculate categories with high spending
 - Calculate percentage of each column spending
 - Give suggestions for saving opportunities
@@ -119,13 +116,14 @@ def generate_financial_recommendations(analysis_data):
 
 **Result**: Highly well put together code with expenses categories and notes on spending activity.
 **Reflection**: The code provided by Gemini closely matched with what I asked, with professional observations delving into various tasks.
+
 ```
 ---
 
 **WEEK 9**
 ```markdown
 
-### AI Collaboration #1
+### AI Collaboration #4
 **Context**: Setting up a financial bot assistant as required of the assessment outline
 **Prompt**: "Help me create a system prompt for a friendly, professional financial advisor chatbot that can provide spending advice based on transaction analysis. The personality should be encouraging but practical."
 **Result**: Descriptive financial bot assistant description reading "You are FinBot, a friendly and professional financial advisor. Your personality traits:
@@ -147,5 +145,10 @@ def generate_financial_recommendations(analysis_data):
     - End with an encouraging note or next steps"
 **Reflection**: AI gave a detailed description of the FinBot AI, with the bot working correctly as planned
 
+###AI Collaboration #5
+**Context**: Implementing RAG system for financial document retrieval
+**Prompt**: "Help me set up a RAG system for financial documents and transaction data with keyword matching for different financial topics"
+**Result**: A complete RAG implementation with appropriate financial information (budgeting strategies, savings tips, spending reduction, debt management) and keyword-based retrieval system that provides personalized advice based on transaction data.
+**Reflection**: The RAG system successfully integrates financial knowledge with personalized spending insights, creating a responsive advice system.
 ```
 
