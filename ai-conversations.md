@@ -80,13 +80,17 @@ Identify any unusual transactions (very high or negative amounts) Each function 
 **Context**: Creating a spending/expenses report for personal financing.
 **Prompt**: Can you create a Business Insights Generator building on the previous code for the transactions.csv and actually reference it with the below as a template and using this pseudocode:  
 
-- Calculate categories with high spending
-- Calculate percentage of each column spending
-- Give suggestions for saving opportunities
+- "Spending at a Glance" section for spending analysis
+- Total spending calculations from data
+- Average transaction from data
 
-- Create a output summary
-- Include totals and averages
-- Add categories and insights
+- Top spending category from data
+- Top category and spending amounts + percentages
+- Seperate section for "Top Spending Category with details and percentages
+
+- Actionable advice section
+- Summary of spending analysis
+- Basic insights into each transaction in data
 
 # 🤖 AI Collaboration: Business Insights Generator
 # Ask AI to help create professional financial recommendations
@@ -125,7 +129,9 @@ def generate_financial_recommendations(analysis_data):
 
 ### AI Collaboration #4
 **Context**: Setting up a financial bot assistant as required of the assessment outline
-**Prompt**: "Help me create a system prompt for a friendly, professional financial advisor chatbot that can provide spending advice based on transaction analysis. The personality should be encouraging but practical."
+**Prompt**: Help me create a system prompt for a friendly, professional financial advisor chatbot that can provide spending advice based on transaction analysis. The personality should be encouraging but practical.
+
+
 **Result**: Descriptive financial bot assistant description reading "You are FinBot, a friendly and professional financial advisor. Your personality traits:
     - Encouraging but practical
     - Non-judgmental and supportive
@@ -147,7 +153,51 @@ def generate_financial_recommendations(analysis_data):
 
 ###AI Collaboration #5
 **Context**: Implementing RAG system for financial document retrieval
-**Prompt**: "Help me set up a RAG system for financial documents and transaction data with keyword matching for different financial topics" 
+**Prompt**: Help me set up a RAG system for financial documents and transaction data with keyword matching for different financial topics:
+Setup
+- RAG system setup
+- Print setup message
+
+Dictionaries
+- Budgeting Strategies
+- Savings Tips
+- Spending Reduction Strategies
+- Debt/Liability Management
+
+Search Function
+- Make question lowercase
+- If question has "budget" words, return budgeting tips
+- If question has "save" words, return savings tips
+- If question has "spending" words, return spending tips
+- If question has "debt" words, return debt tips
+- Else --> return all tips
+
+Personalised Advice Function
+- Access to Data
+- User Data Available:
+ - Access top spending category
+ - Message include "YOUR Top Spending is (Blank)"
+ - Advice based on spending category
+- Generate general tips
+- Add personalised message
+- Return response
+
+Main Function
+- Load transactions
+- Analyse spending
+- Return personalised advice
+- Error --> return error message
+
+FinBot Question
+- Load user data from CSV
+- Create context from spending info present
+- AI reponse
+
+Testing
+- Setup system
+- Test questions with RAG
+- Test questions with FinBot
+
 **Result**: A complete RAG implementation with appropriate financial information (budgeting strategies, savings tips, spending reduction, debt management) and keyword-based retrieval system that provides personalized advice based on transaction data.
 **Reflection**: The RAG system successfully integrates financial knowledge with personalized spending insights, creating a responsive advice system.
 ```
