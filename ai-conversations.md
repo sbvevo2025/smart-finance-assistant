@@ -151,7 +151,7 @@ def generate_financial_recommendations(analysis_data):
     - End with an encouraging note or next steps"
 **Reflection**: AI gave a detailed description of the FinBot AI, with the bot working correctly as planned
 
-###AI Collaboration #5
+### AI Collaboration #5
 **Context**: Implementing RAG system for financial document retrieval
 **Prompt**: Help me set up a RAG system for financial documents and transaction data with keyword matching for different financial topics:
 Setup
@@ -201,7 +201,7 @@ Testing
 **Result**: A complete RAG implementation with appropriate financial information (budgeting strategies, savings tips, spending reduction, debt management) and keyword-based retrieval system that provides personalized advice based on transaction data.
 **Reflection**: The RAG system successfully integrates financial knowledge with personalized spending insights, creating a responsive advice system.
 
-AI Collaboration #6
+### AI Collaboration #6
 Context: Creating custom financial calculator tools for the finance assistant AI 
 Prompt: Create a savings goal calculator function that takes current savings, monthly contribution, and target amount, then calculates time to reach goal. Format output for user-friendly display:
 
