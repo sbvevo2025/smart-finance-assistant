@@ -200,5 +200,44 @@ Testing
 
 **Result**: A complete RAG implementation with appropriate financial information (budgeting strategies, savings tips, spending reduction, debt management) and keyword-based retrieval system that provides personalized advice based on transaction data.
 **Reflection**: The RAG system successfully integrates financial knowledge with personalized spending insights, creating a responsive advice system.
+
+AI Collaboration #6
+Context: Creating custom financial calculator tools for the finance assistant AI 
+Prompt: Create a savings goal calculator function that takes current savings, monthly contribution, and target amount, then calculates time to reach goal. Format output for user-friendly display:
+
+Savings Goal Calculator
+- Check data is valid (exclude negative variables)
+- Calculate months required to reach goal (interest included)
+- If function takes too long --> cancel function and display error
+- Show completion date
+- Calculate total income and interest earned
+- Format with timeline and additional tips
+
+Budget Calculator
+- Check percentages calculate total to 100%
+- Calculate moeny for needs, wants and savings
+- Calculate yearly totals
+- Format output with categories and tips
+
+Emergency Fund Calculator
+- Check variables are positive
+- Calculate target amount
+- Show different savings timelines
+- Format output with importance and steps
+
+Register Tools
+- Register all calculators to system
+- If method fails, try alternate method
+- Print success message with the tool names
+
+Testing
+- Test savings calculator with examples
+- Test budget calculator with $4000 income
+- Test emergency fund with $2500 expense
+- Register all tools and print results
+
+
+Result: Three extensive detail and comprehensive financial tools, with proper inputs, formulas and professionally formatt by AI.
+Reflection: AI successfully created robust calculator tools that handle real financial calculations with proper error checking and user-friendly output formatting.
 ```
 
