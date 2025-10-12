@@ -200,7 +200,10 @@ Testing
 
 **Result**: A complete RAG implementation with appropriate financial information (budgeting strategies, savings tips, spending reduction, debt management) and keyword-based retrieval system that provides personalized advice based on transaction data.
 **Reflection**: The RAG system successfully integrates financial knowledge with personalized spending insights, creating a responsive advice system.
-
+```
+---
+**WEEK 10**
+```markdown
 ### AI Collaboration #6
 Context: Creating custom financial calculator tools for the finance assistant AI 
 Prompt: Create a savings goal calculator function that takes current savings, monthly contribution, and target amount, then calculates time to reach goal. Format output for user-friendly display:
@@ -297,14 +300,32 @@ Launch Application
 - Launch in browser
 
 
-Result: Professional multi-tab interface with spending analysis, financial chat, calculator tools, and about section featuring proper styling, responsive layout, and seamless integration of all system components
-Reflection: AI successfully created a polished, user-friendly interface that effectively combines all the finance assistant features into a cohesive web application with professional styling and intuitive navigation
+Result: Professional multi-tab interface with spending analysis, financial chat, calculator tools, and about section featuring proper styling, though a key error in the gradio ui is the element of the grey text belnding in with the white background
+Reflection: AI successfully created a polished, user-friendly interface that effectively combines all the finance assistant features into a cohesive web application with professional styling and intuitive navigation, though I will have to fix up the text colour to make it contrast against the white background with black text.
+
+### AI Collaboration #8
+Context: Changing the text colour to in Gradio to force the text to adopt black text
+Prompt: With the previous prompt in mind, can you do the following:
+
+User Interface
+- Professional CSS style
+- Make the container use professional font
+- Force all text inside the container to be black for readability, avoid using grey text
+- Use green for positive insights and orange for warnings
+- Style the tab headers to be bold
+
+Launch Application
+- Launch in browser
+
+
+Result: Professional multi-tab interface with spending analysis, financial chat, calculator tools, and about section featuring proper styling, though a key error in the gradio ui is the element of the grey text belnding in with the white background
+Reflection: AI successfully created a polished, user-friendly interface that effectively combines all the finance assistant features into a cohesive web application with professional styling and intuitive navigation, though I will have to fix up the text color to make it contrast against the white background with black text.
 ```
 ---
 
-**WEEK 10**
+**WEEK 11**
 ```markdown
-### AI Collaboration #8
+### AI Collaboration #9
 Context: Creating comprehensive test suite to validate all finance assistant functions
 Prompt: Create realistic test datasets for a finance assistant including normal spending data, edge cases, data quality issues, and business scenarios. Create assert statements to test data loading, spending analysis, and business insights with proper error handling and validation:
 
@@ -343,7 +364,7 @@ Run Tests
 Result: Complete testing framework with multiple test datasets, unit tests for all core functions, edge case handling, and professional test reporting that validates data loading, analysis calculations, and recommendation generation
 Reflection: AI successfully created a robust testing suite that thoroughly validates all system components with realistic scenarios and proper error handling, demonstrating comprehensive quality assurance
 
-### AI Collaboration #9
+### AI Collaboration #10
 Context: Creating end-to-end integration tests to verify all system components work together
 Prompt: Create an end-to-end test that loads sample CSV data, runs complete analysis pipeline, generates chat responses about the data, verifies RAG system retrieval, and tests custom tool functionality. Also create tests for error handling including invalid files, malformed data, and user input validation:
 
