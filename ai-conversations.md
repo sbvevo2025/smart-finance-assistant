@@ -295,7 +295,11 @@ Tab 4: About/Help Section
 
 Launch Application
 - Launch in browser
+```
+---
 
+**WEEK 10**
+```markdown
 ### AI Collaboration #8
 Context: Creating comprehensive test suite to validate all finance assistant functions
 Prompt: Create realistic test datasets for a finance assistant including normal spending data, edge cases, data quality issues, and business scenarios. Create assert statements to test data loading, spending analysis, and business insights with proper error handling and validation:
