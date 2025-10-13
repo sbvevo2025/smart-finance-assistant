@@ -12,6 +12,18 @@
 - Convert amount ot numeric values
 - Convert refunds as negative values
 
+- Find total spending
+- Find average spending
+- Group transactions by columns
+
+- Calculate categories with high spending
+- Calculate percentage of each column spending
+- Give suggestions for saving opportunities
+
+- Create a output summary
+- Include totals and averages
+- Add categories and insights
+
 # 🤖 AI Collaboration: Data Loading and Cleaning Function# Ask AI to help you create a robust data loading functiondef load_and_clean_transaction_data(file_path):
     """
     Load and clean transaction data for the Smart Finance Assistant
