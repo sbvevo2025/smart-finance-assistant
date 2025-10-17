@@ -113,7 +113,7 @@ Date	Amount	Category	Description
 **3.** Upload **"transactions.csv"** file if it isn't already uploaded by pressing the file icon button on the left hand side of the colab screen and then pressing the button with an up arrow on a page which enables file uploading
 
 
-**4.** With the file uploaded run the install package as seen below:
+**4.** With the file uploaded **run the install package** as seen below:
 
 ```
 !pip install gradio pandas hands-on-ai
@@ -134,7 +134,7 @@ os.environ['HANDS_ON_AI_API_KEY'] = getpass('Enter your API key: ')
 print("🔑 Hands-on-AI configured successfully!")
 ```
 
-**6.** Scroll down the colab page and run all the code boxes which include:
+**6.** Scroll down the colab page and **RUN ALL** the code boxes which include:
 - **Sample Transaction Data Setup**
 - **Foundation Data Processing Functions**
 - **Advanced Features: Integrating AI Components**
@@ -142,7 +142,7 @@ print("🔑 Hands-on-AI configured successfully!")
 - **Custom Financial Tools**
 
 
-**7.** After running all code boxes, run **Gradio UI Integration** which serves as the application for the Smart Finance Assistant
+**7.** After running all code boxes, run the **Gradio UI Integration** which serves as the application for the **Smart Finance Assistant**
 
 ---
 ## 📍 Using the Assistant
