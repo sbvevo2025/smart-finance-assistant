@@ -65,7 +65,7 @@ Date	Amount	Category	Description
 
 ## Step-By-Step Guide for Smart Finance Assistant
 
-1. **Open Notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
+1. Open Notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
 
 ---
 
