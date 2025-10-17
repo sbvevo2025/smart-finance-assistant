@@ -36,9 +36,8 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
 - 🔍 **RAG System:** Retrieves relevant information from a base to reference, enhancing AI responses
   
 - 🎯 **Gradio UI:** Gradio implementation with a user-friendly interface for easy interaction
-  
----
 
+---
 
 ## Sample Transactions
 
@@ -68,7 +67,11 @@ Date	Amount	Category	Description
 20/08/2024	$5.80	Coffee	Local Cafe Americano
 
 ```
-
+The transaction file should include these columns:
+- **Date:** Transaction date (DD-MM-YYYY)
+- **Amount:** Transaction amount can include or dollar signs ($)
+- **Category:** Spending categories (groceries, transport, eating-out, etc.)
+- **Description:** General description of transaction
 
 ---
 
@@ -99,13 +102,14 @@ os.environ['HANDS_ON_AI_API_KEY'] = getpass('Enter your API key: ')
 
 print("🔑 Hands-on-AI configured successfully!")
 ```
-**6.** Scroll down the colab page and run all the lines of code which include:
+**6.** Scroll down the colab page and run all the code boxes which include:
 - **Sample Transaction Data Setup**
 - **Foundation Data Processing Functions**
 - **Advanced Features: Integrating AI Components**
 - **RAG System for Financial Documents**
 - **Custom Financial Tools**
 
+**7.** After running all code boxes, run **Gradio UI Integration** which serves as the application for the Smart Finance Assistant
 
 ---
 
