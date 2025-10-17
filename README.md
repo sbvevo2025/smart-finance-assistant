@@ -77,6 +77,13 @@ Date	Amount	Category	Description
 1. Open notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
 
 2. With the colab notebook open, you may notice text comments above some code lines which were my additions to the project
+
+3. Upload **"transactions.csv"** file if it isn't already uploaded by pressing the file icon button on the left hand side of the colab screen and then pressing the button with an up arrow on a page which enables file uploading
+
+4. With the file uploaded run the install package as seen below:
+```
+!pip install gradio pandas hands-on-ai
+```
 ---
 
 ## 📂 Suggested Repo Layout
