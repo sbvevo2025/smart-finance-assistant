@@ -74,16 +74,33 @@ Date	Amount	Category	Description
 
 ## Step-By-Step Guide for Smart Finance Assistant
 
-1. Open notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
+**1.** Open notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
 
-2. With the colab notebook open, you may notice text comments above some code lines which were my additions to the project
+**2.** With the colab notebook open, you may notice text comments above some code lines which were my additions to the project
 
-3. Upload **"transactions.csv"** file if it isn't already uploaded by pressing the file icon button on the left hand side of the colab screen and then pressing the button with an up arrow on a page which enables file uploading
+**3.** Upload **"transactions.csv"** file if it isn't already uploaded by pressing the file icon button on the left hand side of the colab screen and then pressing the button with an up arrow on a page which enables file uploading
 
-4. With the file uploaded run the install package as seen below:
+**4.** With the file uploaded run the install package as seen below:
+
 ```
 !pip install gradio pandas hands-on-ai
 ```
+
+**5.** Configure AI Connection with the password **isys2001-assignment-key** as seen below:
+
+```
+import os
+from getpass import getpass
+
+# Configure hands-on-ai server connection
+os.environ['HANDS_ON_AI_SERVER'] = 'https://ollama.serveur.au'
+os.environ['HANDS_ON_AI_MODEL'] = 'llama3.2'
+os.environ['HANDS_ON_AI_API_KEY'] = getpass('Enter your API key: ')
+
+print("🔑 Hands-on-AI configured successfully!")
+```
+
+**6.**
 ---
 
 ## 📂 Suggested Repo Layout
