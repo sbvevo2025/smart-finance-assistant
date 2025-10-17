@@ -39,7 +39,7 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
 
 ---
 
-## Sample Transactions
+## 📚 Sample Transactions
 
 The **Sample Transactions** for the Smart Finance Assistant can be found within this repository labelled under **"transactions.csv"** and contains the following sample inputs below:
 
@@ -67,7 +67,7 @@ Date	Amount	Category	Description
 20/08/2024	$5.80	Coffee	Local Cafe Americano
 
 ```
-The transaction file should include these columns:
+**The transaction file should include these columns:**
 - **Date:** Transaction date (DD-MM-YYYY)
 - **Amount:** Transaction amount can include or dollar signs ($)
 - **Category:** Spending categories (groceries, transport, eating-out, etc.)
