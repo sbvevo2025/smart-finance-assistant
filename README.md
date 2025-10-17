@@ -55,7 +55,7 @@ smart_finance_assistant/
 ---
 ## 📂 Repository Information
 
-- **AI-Conversations:** Includes AI interactions and pseudocode given to AI to generate code
+- **AI-Conversations-Diary:** Includes AI interactions and pseudocode given to AI to generate code
 
 - **Six-Step Methodology:** Small file including the six-step methodology, nothing too fancy
 
