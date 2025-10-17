@@ -19,6 +19,13 @@ Your Assistant should include:
 
 ---
 
+## Purpose of Smart Finance Assistant
+
+The Smart Finance Assistant is an AI-powered financial assistant application that helps individuals understand their spending, while giving personalised financial guidance 
+
+
+---
+
 ## 📂 Suggested Repo Layout
 You may adapt this structure or create your own. Clarity and organisation are graded in the rubric.
 
