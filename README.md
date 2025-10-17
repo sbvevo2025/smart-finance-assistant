@@ -174,4 +174,6 @@ print("🔑 Hands-on-AI configured successfully!")
 - Information about features and usage
 
 ---
+## 📧Contact
+That concludes the README.md of this repository, if any issues are present email me at **sean.boland@student.curtin.edu.au** or **21482469@student.curtin.edu.au**
 
