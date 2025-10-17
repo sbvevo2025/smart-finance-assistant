@@ -34,7 +34,7 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
 
 ## Sample Transactions
 
-The **Sample Transactions** for the Smart Finance Assistant can be found within this repository labelled under **"transactions.CSV"** and contains the following sample inputs below:
+The **Sample Transactions** for the Smart Finance Assistant can be found within this repository labelled under **"transactions.csv"** and contains the following sample inputs below:
 
 ```
 Date	Amount	Category	Description
@@ -60,6 +60,12 @@ Date	Amount	Category	Description
 20/08/2024	$5.80	Coffee	Local Cafe Americano
 
 ```
+
+---
+
+## Step-By-Step Guide for Smart Finance Assistant
+
+1. **Open Notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
 
 ---
 
