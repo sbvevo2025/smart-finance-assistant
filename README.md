@@ -23,14 +23,22 @@ Your Assistant should include:
 
 The Smart Finance Assistant is an AI-powered financial assistant application that helps individuals understand their spending, while giving personalised financial guidance.
 
+
 ## Key Features
 - 📊 **Transaction Analysis:** Uploading a CSV file containing transaction data and giving detailed spending breakdowns
+- 
 - 🤖 **AI Financial Advisor:** An proficient AI assistant for personalised financial advice and information
+- 
 - 📈 **Spending Insights:** Insights given to the user to identify spending habits and methods for savings opportunities
+- 
 - 🧮 **Financial Calculators:** Planned savings goals, budgeting, and emergency funds
+- 
 - 🔍 **RAG System:** Retrieves relevant information from a base to reference, enhancing AI responses
+- 
 - 🎯 **Gradio UI:** Gradio implementation with a user-friendly interface for easy interaction
+- 
 ---
+
 
 ## Sample Transactions
 
@@ -61,12 +69,14 @@ Date	Amount	Category	Description
 
 ```
 
+
 ---
 
 ## Step-By-Step Guide for Smart Finance Assistant
 
-1. Open Notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
+1. Open notebook labelled **"smart_finance_assistant.ipynb"** and press the open **"open in colab"** button located at the top left of the page preview
 
+2. With the colab notebook open, you may notice text comments above some code lines which were my additions to the project
 ---
 
 ## 📂 Suggested Repo Layout
