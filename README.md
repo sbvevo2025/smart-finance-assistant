@@ -141,4 +141,3 @@ print("🔑 Hands-on-AI configured successfully!")
 
 ---
 
-You are free to license your own work (your project code) under any license you choose.
