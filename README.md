@@ -1,4 +1,4 @@
-# 📊 Smart Finance Assistant – Student Project Template
+# 📊 Sean Boland - Smart Finance Assistant
 
 Welcome to your project repository for the **ISYS2001 Final Programming Project**. This repo provides a starting point for building your **Smart Finance Assistant**.
 
