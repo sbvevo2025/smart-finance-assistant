@@ -19,7 +19,19 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
 - 🎯 **Gradio UI:** Gradio implementation with a user-friendly interface for easy interaction
 
 ---
+## 📂 Repository Information
 
+- **AI-Conversations:** Includes AI interactions and pseudocode given to AI to generate code
+
+- **Six-Step Methodology:** Small file including the six-step methodology, nothing too fancy
+
+- **Smart_Finance_Assistant:** Application for the Smart Finance Assistant, including all code and comments
+
+- **Smart_Finance_Project:** Project overview including marking guide
+
+- **Transactions.CSV:** The sample transactions/data relevant for the Smart Finance Assistant
+
+---
 ## 📚 Sample Transactions
 
 The **Sample Transactions** for the Smart Finance Assistant can be found within this repository labelled under **"transactions.csv"** and contains the following sample inputs below:
