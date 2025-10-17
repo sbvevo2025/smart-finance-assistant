@@ -99,8 +99,14 @@ os.environ['HANDS_ON_AI_API_KEY'] = getpass('Enter your API key: ')
 
 print("🔑 Hands-on-AI configured successfully!")
 ```
+**6.** Scroll down the colab page and run all the lines of code which include:
+- **Sample Transaction Data Setup**
+- **Foundation Data Processing Functions**
+- **Advanced Features: Integrating AI Components**
+- **RAG System for Financial Documents**
+- **Custom Financial Tools**
 
-**6.**
+
 ---
 
 ## 📂 Suggested Repo Layout
