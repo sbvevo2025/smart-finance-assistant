@@ -18,6 +18,7 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
   
 - 🎯 **Gradio UI:** Gradio implementation with a user-friendly interface for easy interaction
 
+
 ## 🧩 Advanced Feature
 
 ✅ **Data Cleaning:** Handles dollar signs, missing values, and invalid data
@@ -26,15 +27,6 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
 
 ✅ **Comprehensive Testing:** Robust error handling and validation
 
-✅ **Australian Context:** Local business names and financial context
-
----
-## 📋 Prerequisites
-Google Colab account
-
-Basic Python knowledge
-
-CSV transaction data (sample provided)
 
 ---
 ## 📂 Repository Information
