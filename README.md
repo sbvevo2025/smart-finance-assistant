@@ -32,6 +32,36 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
 - 🎯 **Gradio UI:** Gradio implementation with a user-friendly interface for easy interaction
 ---
 
+## Sample Transactions
+
+The **Sample Transactions** for the Smart Finance Assistant can be found within this repository labelled under **"transactions.CSV"** and contains the following sample inputs below:
+
+```
+Date	Amount	Category	Description
+01/08/2024	$45.50	Groceries	Woolworths Weekly Shop
+02/08/2024	$12.00	Transport	Opal Card Top-up
+03/08/2024	$89.95	Entertainment	Concert Tickets - Enmore Theatre
+04/08/2024	$3.50	Coffee	Campus Cafe Flat White
+05/08/2024	$120.00	Groceries	Coles Weekly Shop
+06/08/2024	-$25.00	Refund	Returned Textbook - Co-op Bookshop
+07/08/2024	$85.00	Dining	Birthday Dinner - The Rocks
+08/08/2024	$15.95	Coffee	Starbucks Double Shot
+09/08/2024	$67.80	Utilities	Electricity Bill - Origin Energy
+10/08/2024	$4.20	Coffee	Campus Cafe Cappuccino
+11/08/2024	$32.50	Transport	Uber to Airport
+12/08/2024	$156.00	Groceries	Woolworths Fortnightly Shop
+13/08/2024	$8.50	Coffee	Gloria Jeans Large Latte
+14/08/2024	$95.00	Entertainment	Movies and Dinner - Event Cinemas
+15/08/2024	$28.90	Dining	Lunch - Guzman y Gomez
+16/08/2024	-$12.50	Refund	Coffee Shop Refund
+17/08/2024	$45.00	Transport	Petrol - Caltex Woolworths
+18/08/2024	$73.20	Groceries	IGA Local Shop
+19/08/2024	$22.00	Entertainment	Netflix Monthly Subscription
+20/08/2024	$5.80	Coffee	Local Cafe Americano
+
+```
+
+---
 
 ## 📂 Suggested Repo Layout
 You may adapt this structure or create your own. Clarity and organisation are graded in the rubric.
