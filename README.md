@@ -27,7 +27,31 @@ The Smart Finance Assistant is an AI-powered financial assistant application tha
 
 ✅ **Comprehensive Testing:** Robust error handling and validation
 
+---
+### 🚩Basic Structure of Project
 
+```
+smart_finance_assistant/
+├── 📊 Data Processing
+│   ├── load_and_clean_transaction_data()
+│   └── Data validation and cleaning
+├── 🤖 AI Components
+│   ├── analyze_spending_patterns()
+│   ├── generate_financial_recommendations()
+│   └── RAG knowledge base
+├── 💬 Chat System
+│   ├── Finance-focused personality
+│   └── Personalized advice generation
+├── 🧮 Financial Tools
+│   ├── Savings goal calculator
+│   ├── Budget allocation planner
+│   └── Emergency fund calculator
+├── 🎨 User Interface
+│   └── Gradio multi-tab interface
+└── ✅ Testing Suite
+    ├── Unit tests for all functions
+    └── Integration testing
+```
 ---
 ## 📂 Repository Information
 
@@ -123,28 +147,28 @@ print("🔑 Hands-on-AI configured successfully!")
 ---
 ## 📍 Using the Assistant
 
-**1.** Spending Analysis Tab
+**1. Spending Analysis Tab**
 - Upload your CSV transaction file
 
 - View automatic spending analysis and recommendations
   
 - See category breakdowns and percentages
 
-**2.** Financial Chat Tab
+**2. Financial Chat Tab**
 - Ask any financial questions
   
 - Get personalized advice based on your spending patterns
   
 - Receive step-by-step guidance
 
-**3.** Calculators Tab
+**3. Calculators Tab**
 - Savings Goal Calculator: Plan how long to reach financial targets
   
 - Budget Planner: Allocate income using the 50/30/20 rule
   
 - Emergency Fund Calculator: Determine ideal emergency savings
 
-**4.** About & Help Tab
+**4. About & Help Tab**
 - Detailed instructions and sample CSV format
   
 - Information about features and usage
